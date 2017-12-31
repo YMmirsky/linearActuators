@@ -1,0 +1,12 @@
+Spindle Axis datasheet: https://www.festo.com/cat/en_us/data/doc_enus/PDF/US/EGSK-EGSP_ENUS.PDF
+Speeds of up to 2 m/s
+Acceleration of up to 20 m/s^2
+Repetition accuracy of up to +/- 0.003 mm
+
+There are two types of slides: EGSK and EGSP. 
+  The difference between the two is that the EGSP series has caged ball bearings for its recirculating ball bearing guide.
+  EGSK slides come in 57, 133, 184, 239, 392 mm lengths 
+  The EGSP slides come in 112, 212, 460 and 466 mm lengths
+
+A video of one of these in action: https://www.festo.com/cms/en-hk_hk/10177_12616.htm#id_28537 (needs Flash to run)
+  The slide can be seen as the Y-axis here. Moves quite quickly. 
