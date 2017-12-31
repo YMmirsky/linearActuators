@@ -1,0 +1,9 @@
+Recommended software: CoDeSys. 
+
+CMMS-ST Datasheet: https://www.festo.com/cat/en-us_us/data/doc_enus/PDF/US/CMMS-ST_ENUS.PDF 
+
+A video of controlling the CMMS-ST with FCT: https://www.youtube.com/watch?v=og4wd0ec318 
+
+Look into Festo PositioningDrives 
+
+Programming cable: RS232. Need a Serial-To-USB adapter! 
