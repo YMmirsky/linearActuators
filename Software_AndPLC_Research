@@ -39,3 +39,9 @@ General:
                 Output entered characters locally (local echo)
                 During reception, attach line feed to the end of the line
 ===
+Digital I/O cable (X1) wire guide:
+Green:  Pin 9
+White:  Pin 15
+Brown:  Pin 21
+Yellow: Pin 22
+Jumper bridging pins 10 and 18
