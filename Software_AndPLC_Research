@@ -21,3 +21,21 @@ For the voltage supply plug marked X9:
   
   Here is the schematic for how the power supplies should be connected: https://i.gyazo.com/7dfdc3f8f0198977ac42964e5fa1cf2e.png 
   
+===
+Some info and parameters on the RS-232 and other serial interfaces:
+  Baud rate:    9600 to 115k 
+  Connection:   Null modem standard, X5
+  
+RS-485 Interface:
+  Baud rate:    9600
+  Data bits:    8
+  Parity:       None
+  Stop bits:    1
+  
+General:
+  Flow control: None
+  Emulation:    VT100
+  ASCII Config: Sent characters finish with line feed
+                Output entered characters locally (local echo)
+                During reception, attach line feed to the end of the line
+===
