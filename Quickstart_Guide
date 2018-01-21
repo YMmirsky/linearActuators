@@ -1,0 +1,32 @@
+1: Wiring everything up: 
+  1A: Connecting the motor cables:
+    There are two cables that connect the EMMS-ST motors with the CMMS-ST motor controller. 
+    One cable has a 9-pin connector that goes into the motor, and the other has a PS2-like connector. 
+    Plug the cables into their respective plugs, marked as X2 and X6 on the controller. Where the cables go should be clear by their connectors
+  
+  1B: Digital I/O:
+    Plug in the cable with the green, white, brown and yellow wires into the controller's X1 port.
+    
+  1C: Power Supply:
+    The CMMS-ST requires a 24V AND 48V input to function properly, routed through its X9 port. 
+    The input marked as "ZK+" requires 48V. It supplies the motors, so expect it to consume slightly over 2 amps at its maximum load.
+    The input marked as "24 V" requires 24V. It is the logic supply. The nominal current is 0.2A, but the max current is rated at 1.5A.
+    The input marked as "0 V" should be wired to the negative of both power supplies. 
+    In addition, the green, white and brown wires from the digital I/O cable should be hooked up along the 24V cable. 
+      They need to be recieving 24V for the motors to be enabled. 
+    A diagram of how the documentation recommends wiring up the power input: https://i.gyazo.com/7dfdc3f8f0198977ac42964e5fa1cf2e.png 
+    
+2: Communicating to the controller:
+  2A: The most direct way to communicate with a CMMS-ST is through its serial port. 
+    Since most computers don't have a serial port any more, a nullmodem serial to USB adapter is needed.
+    I have personally used the following adapter with success: https://www.newegg.com/Product/NewProduct.aspx?Item=N82E16812400121&RandomID=84985244794020180115120300
+    Note that not all adapters may work.
+    After plugging in the connector, you will likely have to update the drivers for it: 
+      Go to Device Manager -> "Ports (COM & LPT)" -> "USB Serial Port" -> right click and select "Update Driver"
+  2B: Installing the software: 
+    You will need the Festo Configuration Tool (FCT) to communicate with and program the CMMS-ST.
+    This can be downloaded for free on this link: Note that this specific plugin must be installed, no other versions of FCT will work:
+      https://www.festo.com/net/sl_si/SupportPortal/default.aspx?cat=1530&tab=4 Click on "FCT - Festo Configuration Tool" and download the latest version.
+    After installing, open it
+    TODO: Process for working inside the FCT and moving the motor. 
+  
