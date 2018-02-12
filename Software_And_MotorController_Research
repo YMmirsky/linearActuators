@@ -44,5 +44,7 @@ Green:  Pin 9   (Controller enable (DIN5)) Make sure it is at 0V when starting u
 White:  Pin 15  (Stop (DIN13))
 Brown:  Pin 21  (Output stage enable (DIN4))
 Yellow: Pin 22
+Pin 18: +24V output. Good to use it to supply power to the green, white and brown wires which require a 24V input for the motor controller to be enabled.
+
 Jumper bridging pins 10 and 18
 Diagram: https://i.gyazo.com/3e5d95ae28635debd5223dcc66b74835.png
