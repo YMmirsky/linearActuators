@@ -48,3 +48,10 @@ Pin 18: +24V output. Good to use it to supply power to the green, white and brow
 
 Jumper bridging pins 10 and 18
 Diagram: https://i.gyazo.com/3e5d95ae28635debd5223dcc66b74835.png
+
+Pin 3:  DIN10 Record selection 4 (high active)
+Pin 7:  DIN1  Record selection 1 (high active)
+Pin 8:  DIN3  Record selection 3 (high active)
+Pin 19: DIN0  Record selection 0 (high active)
+Pin 20: DIN2  Record selection 2 (high active)
+
