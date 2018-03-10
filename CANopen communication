@@ -1,0 +1,4 @@
+It seems that the most comprehensive communication protocol in terms of function with the CMMS-ST is CANopen. 
+
+PDF on communicating to the CMMS-ST with CANopen: https://www.festo.com/net/SupportPortal/Files/403859/CMMS-CO_2010-12a_554352g1.pdf 
+  Information on position values can be found on page 80
