@@ -55,3 +55,6 @@ Pin 8:  DIN3  Record selection 3 (high active)
 Pin 19: DIN0  Record selection 0 (high active)
 Pin 20: DIN2  Record selection 2 (high active)
 
+Useful link to CANopen with Festo: https://www.festo.com/net/SupportPortal/Files/403859/CMMS-CO_2010-12a_554352g1.pdf 
+  Position controller function info can be found on page 77.
+  
